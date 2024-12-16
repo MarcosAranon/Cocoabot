@@ -1,0 +1,11 @@
+1734298329.8915927 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-15-18-32-09-891150-Lundi-117
+1734298329.8916976 [INFO] [launch]: Default logging verbosity is set to INFO
+1734298329.9860675 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command failed. Command: /opt/ros/humble/bin/xacro /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/urdf/cocoabot_description.urdf.xacro
+Captured stderr output: XML parsing error: XML or text declaration not at start of entity: line 3, column 0
+when processing file: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/urdf/material.xacro
+included from: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/urdf/cocoabot_description.urdf.xacro
+
+Check that:
+ - Your XML is well-formed
+ - You have the xacro xmlns declaration: xmlns:xacro="http://www.ros.org/wiki/xacro"
+

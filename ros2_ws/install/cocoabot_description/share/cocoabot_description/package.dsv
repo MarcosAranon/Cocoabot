@@ -1,0 +1,8 @@
+source;share/cocoabot_description/hook/cmake_prefix_path.ps1
+source;share/cocoabot_description/hook/cmake_prefix_path.dsv
+source;share/cocoabot_description/hook/cmake_prefix_path.sh
+source;share/cocoabot_description/local_setup.bash
+source;share/cocoabot_description/local_setup.dsv
+source;share/cocoabot_description/local_setup.ps1
+source;share/cocoabot_description/local_setup.sh
+source;share/cocoabot_description/local_setup.zsh

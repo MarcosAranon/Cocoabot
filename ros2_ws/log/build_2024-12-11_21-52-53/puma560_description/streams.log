@@ -1,0 +1,16 @@
+[0.010s] Invoking command in '/home/ros2_ws/build/puma560_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/puma560_description -- -j16 -l16
+[0.087s] Invoked command in '/home/ros2_ws/build/puma560_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/puma560_description -- -j16 -l16
+[0.135s] Invoking command in '/home/ros2_ws/build/puma560_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/puma560_description
+[0.149s] -- Install configuration: ""
+[0.149s] -- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/launch
+[0.149s] -- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/launch/display.launch.py
+[0.149s] -- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf
+[0.150s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.150s]   file INSTALL cannot find "/home/ros2_ws/src/puma560_description/config": No
+[0.150s]   such file or directory.
+[0.150s] 
+[0.150s] [0m
+[0.152s] -- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/material.xacro
+[0.152s] -- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/description.txt
+[0.152s] -- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.xacro
+[0.153s] Invoked command in '/home/ros2_ws/build/puma560_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/puma560_description

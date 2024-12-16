@@ -1,0 +1,22 @@
+1734204874.9605026 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-16-34-34-960031-Lundi-178
+1734204874.9605942 [INFO] [launch]: Default logging verbosity is set to INFO
+1734204875.0448227 [INFO] [robot_state_publisher-1]: process started with pid [179]
+1734204875.0449445 [INFO] [joint_state_publisher-2]: process started with pid [181]
+1734204875.0449979 [INFO] [joint_state_publisher_gui-3]: process started with pid [183]
+1734204875.0450389 [INFO] [rviz2-4]: process started with pid [185]
+1734204875.2235577 [joint_state_publisher_gui-3] QStandardPaths: runtime directory '/tmp/runtime-ros2_ws' is not owned by UID 0, but a directory permissions 0755 owned by UID 1000 GID 1000
+1734204875.2475107 [joint_state_publisher-2] [INFO] [1734204875.247364066] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734204875.2519963 [joint_state_publisher_gui-3] [INFO] [1734204875.251843567] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734204875.2601771 [joint_state_publisher_gui-3] [INFO] [1734204875.259974583] [joint_state_publisher_gui]: Centering
+1734204875.2955596 [joint_state_publisher_gui-3] MESA: error: Failed to query drm device.
+1734204875.2957244 [joint_state_publisher_gui-3] libGL error: glx: failed to create dri3 screen
+1734204875.2958436 [joint_state_publisher_gui-3] libGL error: failed to load driver: iris
+1734204875.2970371 [joint_state_publisher_gui-3] libGL error: failed to open /dev/dri/card2: No such file or directory
+1734204875.2971177 [joint_state_publisher_gui-3] libGL error: failed to load driver: iris
+1734204875.3250763 [joint_state_publisher_gui-3] [INFO] [1734204875.324878085] [joint_state_publisher_gui]: Centering
+1734204887.5165708 [joint_state_publisher_gui-3] [INFO] [1734204887.515641440] [joint_state_publisher_gui]: Randomizing
+1734204891.8153636 [INFO] [joint_state_publisher_gui-3]: process has finished cleanly [pid 183]
+1734204894.2472091 [INFO] [rviz2-4]: process has finished cleanly [pid 185]
+1734204897.7893233 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734204897.8997931 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 179]
+1734204897.9279578 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 181]

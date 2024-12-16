@@ -1,0 +1,63 @@
+[0.019s] Invoking command in '/home/ros2_ws/build/puma560_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2_ws/src/puma560_description -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/puma560_description
+[0.108s] -- The C compiler identification is GNU 11.4.0
+[0.194s] -- The CXX compiler identification is GNU 11.4.0
+[0.206s] -- Detecting C compiler ABI info
+[0.315s] -- Detecting C compiler ABI info - done
+[0.327s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.328s] -- Detecting C compile features
+[0.328s] -- Detecting C compile features - done
+[0.333s] -- Detecting CXX compiler ABI info
+[0.467s] -- Detecting CXX compiler ABI info - done
+[0.482s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.482s] -- Detecting CXX compile features
+[0.483s] -- Detecting CXX compile features - done
+[0.491s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.743s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.880s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.883s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.957s] -- Found rviz2: 11.2.13 (/opt/ros/humble/share/rviz2/cmake)
+[0.959s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.064s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.065s] -- Added test 'lint_cmake' to check CMake code style
+[1.066s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.067s] -- Added test 'xmllint' to check XML markup files
+[1.069s] -- Configuring done
+[1.072s] -- Generating done
+[1.073s] -- Build files have been written to: /home/ros2_ws/build/puma560_description
+[1.079s] Invoked command in '/home/ros2_ws/build/puma560_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2_ws/src/puma560_description -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/puma560_description
+[1.081s] Invoking command in '/home/ros2_ws/build/puma560_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/puma560_description -- -j20 -l20
+[1.140s] Invoked command in '/home/ros2_ws/build/puma560_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/puma560_description -- -j20 -l20
+[1.181s] Invoking command in '/home/ros2_ws/build/puma560_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/puma560_description
+[1.191s] -- Install configuration: ""
+[1.191s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/launch
+[1.192s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/launch/display.launch.py
+[1.192s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf
+[1.192s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/description.txt
+[1.192s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/material.xacro
+[1.192s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.xacro
+[1.192s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/config
+[1.192s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes
+[1.192s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_5.STL
+[1.192s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_1.STL
+[1.193s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_4.STL
+[1.193s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/base_link.STL
+[1.194s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_3.STL
+[1.194s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_2.STL
+[1.195s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/rviz2
+[1.195s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/rviz2/puma560_config.rviz
+[1.195s] -- Installing: /home/ros2_ws/install/puma560_description/share/ament_index/resource_index/package_run_dependencies/puma560_description
+[1.195s] -- Installing: /home/ros2_ws/install/puma560_description/share/ament_index/resource_index/parent_prefix_path/puma560_description
+[1.195s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/environment/ament_prefix_path.sh
+[1.195s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/environment/ament_prefix_path.dsv
+[1.196s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/environment/path.sh
+[1.196s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/environment/path.dsv
+[1.196s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/local_setup.bash
+[1.196s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/local_setup.sh
+[1.196s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/local_setup.zsh
+[1.196s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/local_setup.dsv
+[1.196s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/package.dsv
+[1.196s] -- Installing: /home/ros2_ws/install/puma560_description/share/ament_index/resource_index/packages/puma560_description
+[1.197s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/cmake/puma560_descriptionConfig.cmake
+[1.197s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/cmake/puma560_descriptionConfig-version.cmake
+[1.197s] -- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/package.xml
+[1.200s] Invoked command in '/home/ros2_ws/build/puma560_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/puma560_description

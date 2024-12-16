@@ -1,0 +1,5 @@
+1734304810.0696313 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-15-20-20-10-069193-Lundi-389
+1734304810.0697083 [INFO] [launch]: Default logging verbosity is set to INFO
+1734304810.1415846 [INFO] [robot_state_publisher-1]: process started with pid [391]
+1734304810.1416993 [INFO] [joint_state_publisher_gui-2]: process started with pid [393]
+1734304810.1417465 [INFO] [rviz2-3]: process started with pid [395]

@@ -1,0 +1,30 @@
+1734143911.0818305 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-13-23-38-31-081437-Lundi-561
+1734143911.0819230 [INFO] [launch]: Default logging verbosity is set to INFO
+1734143911.1491768 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command failed. Command: xacro /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+Captured stderr output: Traceback (most recent call last):
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py", line 1012, in parse
+    inp = f = open(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py", line 1119, in _process
+    doc = process_file(input_file_name, **opts)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py", line 1096, in process_file
+    doc = parse(None, input_file_name)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py", line 1016, in parse
+    raise XacroException(e.strerror + ": " + e.filename, exc=e)
+xacro.XacroException: No such file or directory: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro [Errno 2] No such file or directory: '/home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/humble/bin/xacro", line 33, in <module>
+    sys.exit(load_entry_point('xacro==2.0.8', 'console_scripts', 'xacro')())
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py", line 1171, in main
+    _process(input_file_name, vars(opts))
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py", line 1124, in _process
+    except xml.parsers.expat.ExpatError as e:
+AttributeError: module 'xml' has no attribute 'parsers'
+

@@ -1,0 +1,5 @@
+source /opt/ros/humble/setup.bash
+source /home/ros2_ws/install/setup.bash
+source /usr/share/colcon_cd/function/colcon_cd.sh
+
+

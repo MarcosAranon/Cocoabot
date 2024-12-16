@@ -1,0 +1,27 @@
+1734187168.7097671 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-11-39-28-709372-Lundi-1489
+1734187168.7098424 [INFO] [launch]: Default logging verbosity is set to INFO
+1734187168.7603979 [INFO] [robot_state_publisher-1]: process started with pid [1490]
+1734187168.7605255 [INFO] [joint_state_publisher-2]: process started with pid [1492]
+1734187168.7605731 [INFO] [joint_state_publisher_gui-3]: process started with pid [1494]
+1734187168.7606065 [INFO] [rviz2-4]: process started with pid [1496]
+1734187168.8761919 [joint_state_publisher-2] [INFO] [1734187168.875993107] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734187168.8844738 [joint_state_publisher_gui-3] QStandardPaths: runtime directory '/tmp/runtime-ros2_ws' is not owned by UID 0, but a directory permissions 0755 owned by UID 1000 GID 1000
+1734187168.9112084 [joint_state_publisher_gui-3] [INFO] [1734187168.911076249] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734187168.9180455 [joint_state_publisher_gui-3] [INFO] [1734187168.917859113] [joint_state_publisher_gui]: Centering
+1734187168.9492178 [joint_state_publisher_gui-3] MESA: error: Failed to query drm device.
+1734187168.9493198 [joint_state_publisher_gui-3] libGL error: glx: failed to create dri3 screen
+1734187168.9494309 [joint_state_publisher_gui-3] libGL error: failed to load driver: iris
+1734187168.9506886 [joint_state_publisher_gui-3] libGL error: failed to open /dev/dri/card1: No such file or directory
+1734187168.9507396 [joint_state_publisher_gui-3] libGL error: failed to load driver: iris
+1734187168.9732091 [joint_state_publisher_gui-3] [INFO] [1734187168.973004174] [joint_state_publisher_gui]: Centering
+1734187183.5841434 [joint_state_publisher_gui-3] [INFO] [1734187183.583841792] [joint_state_publisher_gui]: Randomizing
+1734187184.1212838 [joint_state_publisher_gui-3] [INFO] [1734187184.120746018] [joint_state_publisher_gui]: Randomizing
+1734187184.8660393 [joint_state_publisher_gui-3] [INFO] [1734187184.865479217] [joint_state_publisher_gui]: Centering
+1734187185.5239830 [joint_state_publisher_gui-3] [INFO] [1734187185.523340536] [joint_state_publisher_gui]: Centering
+1734187185.6896451 [joint_state_publisher_gui-3] [INFO] [1734187185.689130522] [joint_state_publisher_gui]: Centering
+1734187185.8255398 [joint_state_publisher_gui-3] [INFO] [1734187185.824991241] [joint_state_publisher_gui]: Centering
+1734187189.0752659 [INFO] [joint_state_publisher_gui-3]: process has finished cleanly [pid 1494]
+1734187234.6315145 [INFO] [rviz2-4]: process has finished cleanly [pid 1496]
+1734187236.7808092 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734187236.8924112 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 1490]
+1734187236.9137387 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 1492]

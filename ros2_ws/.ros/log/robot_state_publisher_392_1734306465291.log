@@ -1,0 +1,7 @@
+[INFO] [1734306465.315297427] [robot_state_publisher]: got segment base_link
+[INFO] [1734306465.315367877] [robot_state_publisher]: got segment lamina_link
+[INFO] [1734306465.315372337] [robot_state_publisher]: got segment plat_link
+[INFO] [1734306465.315374931] [robot_state_publisher]: got segment prism_link
+[INFO] [1734306465.315377078] [robot_state_publisher]: got segment rot_link
+[INFO] [1734306465.315379105] [robot_state_publisher]: got segment world
+[INFO] [1734306532.318523554] [rclcpp]: signal_handler(signum=2)

@@ -1,0 +1,45 @@
+[0.000000] (-) TimerEvent: {}
+[0.000200] (cocoabot_description) JobQueued: {'identifier': 'cocoabot_description', 'dependencies': OrderedDict()}
+[0.000602] (cocoabot_description) JobStarted: {'identifier': 'cocoabot_description'}
+[0.006375] (cocoabot_description) JobProgress: {'identifier': 'cocoabot_description', 'progress': 'cmake'}
+[0.006924] (cocoabot_description) JobProgress: {'identifier': 'cocoabot_description', 'progress': 'build'}
+[0.006991] (cocoabot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/cocoabot_description', '--', '-j16', '-l16'], 'cwd': '/home/ros2_ws/build/cocoabot_description', 'env': OrderedDict([('HOSTNAME', 'Lundi'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/cocoabot_description:/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/cocoabot_description'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/cocoabot_description:/opt/ros/humble')]), 'shell': False}
+[0.036102] (cocoabot_description) CommandEnded: {'returncode': 0}
+[0.054654] (cocoabot_description) JobProgress: {'identifier': 'cocoabot_description', 'progress': 'install'}
+[0.061848] (cocoabot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/cocoabot_description'], 'cwd': '/home/ros2_ws/build/cocoabot_description', 'env': OrderedDict([('HOSTNAME', 'Lundi'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/cocoabot_description:/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/cocoabot_description'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/cocoabot_description:/opt/ros/humble')]), 'shell': False}
+[0.068178] (cocoabot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.068303] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/launch\n'}
+[0.068352] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/launch/gazebo.launch.py\n'}
+[0.068395] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/launch/display.launch.py\n'}
+[0.068460] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/urdf\n'}
+[0.068500] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/urdf/material.xacro\n'}
+[0.068571] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/urdf/description.txt\n'}
+[0.068611] (cocoabot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/urdf/cocoabot_description.urdf.xacro\n'}
+[0.068684] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/config\n'}
+[0.068733] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/config/config.rviz\n'}
+[0.068824] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/meshes\n'}
+[0.068866] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/meshes/lamina_link.STL\n'}
+[0.068906] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/meshes/prism_link.STL\n'}
+[0.068947] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/meshes/base_link.STL\n'}
+[0.068985] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/meshes/rot_link.STL\n'}
+[0.069024] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/meshes/plat_link.STL\n'}
+[0.069061] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/rviz2\n'}
+[0.069099] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/rviz2/cocoabot_config.rviz\n'}
+[0.069137] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/ament_index/resource_index/package_run_dependencies/cocoabot_description\n'}
+[0.069201] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/ament_index/resource_index/parent_prefix_path/cocoabot_description\n'}
+[0.069280] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/environment/ament_prefix_path.sh\n'}
+[0.069321] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/environment/ament_prefix_path.dsv\n'}
+[0.069360] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/environment/path.sh\n'}
+[0.069399] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/environment/path.dsv\n'}
+[0.069436] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/local_setup.bash\n'}
+[0.069474] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/local_setup.sh\n'}
+[0.069511] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/local_setup.zsh\n'}
+[0.069567] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/local_setup.dsv\n'}
+[0.069646] (cocoabot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/package.dsv\n'}
+[0.069699] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/ament_index/resource_index/packages/cocoabot_description\n'}
+[0.069736] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/cmake/cocoabot_descriptionConfig.cmake\n'}
+[0.069780] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/cmake/cocoabot_descriptionConfig-version.cmake\n'}
+[0.069816] (cocoabot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/package.xml\n'}
+[0.071338] (cocoabot_description) CommandEnded: {'returncode': 0}
+[0.097001] (cocoabot_description) JobEnded: {'identifier': 'cocoabot_description', 'rc': 0}
+[0.097423] (-) EventReactorShutdown: {}

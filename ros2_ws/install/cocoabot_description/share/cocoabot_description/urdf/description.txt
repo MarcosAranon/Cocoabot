@@ -1,0 +1,67 @@
+<xacro:property name="x" value="0" />
+<xacro:property name="y" value="0" />
+
+<!-- Geometria: Link 1 -->
+<xacro:property name="link_1_length" value="0.5" />
+<xacro:property name="link_1_radius" value="0.04" />
+<xacro:property name="link_1_mass" value="2.1545" />
+<xacro:property name="link_1_ixx" value="0.0092706" />
+<xacro:property name="link_1_ixy" value="0.000014604" />
+<xacro:property name="link_1_ixz" value="-0.0000043192" />
+<xacro:property name="link_1_iyy" value="0.021653" />
+<xacro:property name="link_1_iyz" value="0.00001839" />
+<xacro:property name="link_1_izz" value="0.030482" />
+
+<!-- Geometria: Link 2 -->
+<xacro:property name="link_2_length" value="1.0" />
+<xacro:property name="link_2_height" value="0.1" />
+<xacro:property name="link_2_width" value="0.1" />
+<xacro:property name="link_2_mass" value="0.46474" />
+<xacro:property name="link_2_ixx" value="0.00081273" />
+<xacro:property name="link_2_ixy" value="0.00000009984" />
+<xacro:property name="link_2_ixz" value="-0.0000049772" />
+<xacro:property name="link_2_iyy" value="0.00070326" />
+<xacro:property name="link_2_iyz" value="0.0000024908" />
+<xacro:property name="link_2_izz" value="0.00041364" />
+
+<!-- Geometria: Link 3 -->
+<xacro:property name="link_3_length" value="0.3" />
+<xacro:property name="link_3_mass" value="0.35324" />
+<xacro:property name="link_3_ixx" value="0.00028201" />
+<xacro:property name="link_3_ixy" value="-0.0000063602" />
+<xacro:property name="link_3_ixz" value="-0.0000060104" />
+<xacro:property name="link_3_iyy" value="0.00053113" />
+<xacro:property name="link_3_iyz" value="0.0000055646" />
+<xacro:property name="link_3_izz" value="0.00060695" />
+
+<!-- Geometria: Link 4 -->
+<xacro:property name="link_4_length" value="0.4" />
+<xacro:property name="link_4_mass" value="0.41724" />
+<xacro:property name="link_4_ixx" value="0.0013879" />
+<xacro:property name="link_4_ixy" value="0.00000064804" />
+<xacro:property name="link_4_ixz" value="0.000045861" />
+<xacro:property name="link_4_iyy" value="0.0012367" />
+<xacro:property name="link_4_iyz" value="-0.0000083826" />
+<xacro:property name="link_4_izz" value="0.00032076" />
+
+<!-- Geometria: Link 5 -->
+<xacro:property name="link_5_length" value="0.2" />
+<xacro:property name="link_5_mass" value="0.027825" />
+<xacro:property name="link_5_ixx" value="0.000017938" />
+<xacro:property name="link_5_ixy" value="-0.000000057863" />
+<xacro:property name="link_5_ixz" value="-0.000000043107" />
+<xacro:property name="link_5_iyy" value="0.0000087838" />
+<xacro:property name="link_5_iyz" value="-0.0000031098" />
+<xacro:property name="link_5_izz" value="0.0000094353" />
+
+<!-- Limites: Junta Revolução -->
+<xacro:property name="limits_revolute_upper" value="3.142" />
+<xacro:property name="limits_revolute_lower" value="-3.142" />
+<xacro:property name="limits_revolute_velocity" value="1.047" />
+<xacro:property name="limits_revolute_effort" value="8.826" />
+
+<!-- Limites: Junta Prismática -->
+<xacro:property name="limits_prismatic_upper" value="0.065" />
+<xacro:property name="limits_prismatic_lower" value="0.0144" />
+<xacro:property name="limits_prismatic_velocity" value="0.01" />
+<xacro:property name="limits_prismatic_effort" value="1.766" />

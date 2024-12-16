@@ -1,0 +1,12 @@
+-- Install configuration: ""
+-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/launch
+-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/launch/display.launch.py
+-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find "/home/ros2_ws/src/puma560_description/config": No
+  such file or directory.
+
+[0m
+-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/material.xacro
+-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/description.txt
+-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.xacro

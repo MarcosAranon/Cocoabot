@@ -1,0 +1,21 @@
+1734186123.8187447 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-11-22-03-818319-Lundi-1001
+1734186123.8188279 [INFO] [launch]: Default logging verbosity is set to INFO
+1734186123.8691812 [INFO] [robot_state_publisher-1]: process started with pid [1002]
+1734186123.8692980 [INFO] [joint_state_publisher-2]: process started with pid [1004]
+1734186123.8693497 [INFO] [joint_state_publisher_gui-3]: process started with pid [1006]
+1734186123.8693852 [INFO] [rviz2-4]: process started with pid [1008]
+1734186123.9854643 [joint_state_publisher-2] [INFO] [1734186123.985261167] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734186123.9863250 [joint_state_publisher_gui-3] QStandardPaths: runtime directory '/tmp/runtime-ros2_ws' is not owned by UID 0, but a directory permissions 0755 owned by UID 1000 GID 1000
+1734186124.0174284 [joint_state_publisher_gui-3] [INFO] [1734186124.017225819] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734186124.0245414 [joint_state_publisher_gui-3] [INFO] [1734186124.024350756] [joint_state_publisher_gui]: Centering
+1734186124.0480270 [joint_state_publisher_gui-3] MESA: error: Failed to query drm device.
+1734186124.0481369 [joint_state_publisher_gui-3] libGL error: glx: failed to create dri3 screen
+1734186124.0481672 [joint_state_publisher_gui-3] libGL error: failed to load driver: iris
+1734186124.0496368 [joint_state_publisher_gui-3] libGL error: failed to open /dev/dri/card1: No such file or directory
+1734186124.0497153 [joint_state_publisher_gui-3] libGL error: failed to load driver: iris
+1734186124.0722582 [joint_state_publisher_gui-3] [INFO] [1734186124.072064491] [joint_state_publisher_gui]: Centering
+1734186133.4520814 [INFO] [rviz2-4]: process has finished cleanly [pid 1008]
+1734186137.5552115 [INFO] [joint_state_publisher_gui-3]: process has finished cleanly [pid 1006]
+1734186658.7230403 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734186658.8337049 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 1002]
+1734186658.8655312 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 1004]

@@ -1,0 +1,37 @@
+[0.008s] Invoking command in '/home/ros2_ws/build/cocoabot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/cocoabot_description -- -j16 -l16
+[0.038s] Invoked command in '/home/ros2_ws/build/cocoabot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/cocoabot_description -- -j16 -l16
+[0.060s] Invoking command in '/home/ros2_ws/build/cocoabot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/cocoabot_description
+[0.065s] -- Install configuration: ""
+[0.065s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/launch
+[0.065s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/launch/gazebo.launch.py
+[0.065s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/launch/display.launch.py
+[0.065s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/urdf
+[0.066s] -- Installing: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/urdf/material.xacro
+[0.066s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/urdf/description.txt
+[0.066s] -- Installing: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/urdf/cocoabot_description.urdf.xacro
+[0.066s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/config
+[0.066s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/config/config.rviz
+[0.066s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/meshes
+[0.066s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/meshes/lamina_link.STL
+[0.066s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/meshes/prism_link.STL
+[0.066s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/meshes/base_link.STL
+[0.066s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/meshes/rot_link.STL
+[0.066s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/meshes/plat_link.STL
+[0.066s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/rviz2
+[0.066s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/rviz2/cocoabot_config.rviz
+[0.066s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/ament_index/resource_index/package_run_dependencies/cocoabot_description
+[0.066s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/ament_index/resource_index/parent_prefix_path/cocoabot_description
+[0.066s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/environment/ament_prefix_path.sh
+[0.066s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/environment/ament_prefix_path.dsv
+[0.066s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/environment/path.sh
+[0.066s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/environment/path.dsv
+[0.066s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/local_setup.bash
+[0.067s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/local_setup.sh
+[0.067s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/local_setup.zsh
+[0.067s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/local_setup.dsv
+[0.067s] -- Installing: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/package.dsv
+[0.067s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/ament_index/resource_index/packages/cocoabot_description
+[0.067s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/cmake/cocoabot_descriptionConfig.cmake
+[0.067s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/cmake/cocoabot_descriptionConfig-version.cmake
+[0.067s] -- Up-to-date: /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/package.xml
+[0.068s] Invoked command in '/home/ros2_ws/build/cocoabot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/cocoabot_description

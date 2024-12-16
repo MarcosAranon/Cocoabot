@@ -1,0 +1,18 @@
+1734204989.5779903 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-16-36-29-577504-Lundi-485
+1734204989.5780804 [INFO] [launch]: Default logging verbosity is set to INFO
+1734204989.6281493 [INFO] [robot_state_publisher-1]: process started with pid [486]
+1734204989.6282651 [INFO] [joint_state_publisher-2]: process started with pid [488]
+1734204989.6283197 [INFO] [joint_state_publisher_gui-3]: process started with pid [490]
+1734204989.6283610 [INFO] [rviz2-4]: process started with pid [492]
+1734204989.7245686 [ERROR] [robot_state_publisher-1]: process has died [pid 486, exit code -6, cmd '/opt/ros/humble/lib/robot_state_publisher/robot_state_publisher --ros-args --params-file /tmp/launch_params_6_yk0epp'].
+1734204989.7600343 [joint_state_publisher-2] [INFO] [1734204989.759821286] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734204989.7658916 [joint_state_publisher_gui-3] QStandardPaths: runtime directory '/tmp/runtime-ros2_ws' is not owned by UID 0, but a directory permissions 0755 owned by UID 1000 GID 1000
+1734204989.7922242 [joint_state_publisher_gui-3] [INFO] [1734204989.792076495] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734204989.7987647 [joint_state_publisher_gui-3] [INFO] [1734204989.798563094] [joint_state_publisher_gui]: Centering
+1734204989.8225803 [joint_state_publisher_gui-3] MESA: error: Failed to query drm device.
+1734204989.8227253 [joint_state_publisher_gui-3] libGL error: glx: failed to create dri3 screen
+1734204989.8227832 [joint_state_publisher_gui-3] libGL error: failed to load driver: iris
+1734204989.8239968 [joint_state_publisher_gui-3] libGL error: failed to open /dev/dri/card2: No such file or directory
+1734204989.8241060 [joint_state_publisher_gui-3] libGL error: failed to load driver: iris
+1734205009.9394202 [INFO] [joint_state_publisher_gui-3]: process has finished cleanly [pid 490]
+1734205013.3097017 [INFO] [rviz2-4]: process has finished cleanly [pid 492]

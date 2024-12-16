@@ -1,0 +1,10 @@
+1734186973.2827549 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-11-36-13-282270-Lundi-1383
+1734186973.2828569 [INFO] [launch]: Default logging verbosity is set to INFO
+1734186973.3562355 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command failed. Command: xacro /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+Captured stderr output: XML parsing error: no element found: line 175, column 11
+when processing file: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+
+Check that:
+ - Your XML is well-formed
+ - You have the xacro xmlns declaration: xmlns:xacro="http://www.ros.org/wiki/xacro"
+

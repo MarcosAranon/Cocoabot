@@ -1,0 +1,3 @@
+1734209728.3448951 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-17-55-28-344476-Lundi-963
+1734209728.3449745 [INFO] [launch]: Default logging verbosity is set to INFO
+1734209728.4109056 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Unable to parse the value of parameter robot_description as yaml. If the parameter is meant to be a string, try wrapping it in launch_ros.parameter_descriptions.ParameterValue(value, value_type=str)

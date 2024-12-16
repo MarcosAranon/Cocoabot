@@ -1,0 +1,20 @@
+1733966875.4030628 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-11-22-27-55-402580-Lundi-358
+1733966875.4031482 [INFO] [launch]: Default logging verbosity is set to INFO
+1733966875.4738960 [INFO] [robot_state_publisher-1]: process started with pid [359]
+1733966875.4740088 [INFO] [joint_state_publisher-2]: process started with pid [361]
+1733966875.4740546 [INFO] [joint_state_publisher_gui-3]: process started with pid [363]
+1733966875.4740930 [INFO] [rviz2-4]: process started with pid [365]
+1733966875.6515849 [joint_state_publisher_gui-3] QStandardPaths: runtime directory '/tmp/runtime-ros2_ws' is not owned by UID 0, but a directory permissions 0755 owned by UID 1000 GID 1000
+1733966875.6760581 [joint_state_publisher-2] [INFO] [1733966875.675957837] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1733966875.6772077 [joint_state_publisher_gui-3] [INFO] [1733966875.677149398] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1733966875.6879892 [joint_state_publisher_gui-3] [INFO] [1733966875.687820165] [joint_state_publisher_gui]: Centering
+1733966875.7121654 [joint_state_publisher_gui-3] MESA: error: Failed to query drm device.
+1733966875.7122347 [joint_state_publisher_gui-3] libGL error: glx: failed to create dri3 screen
+1733966875.7122648 [joint_state_publisher_gui-3] libGL error: failed to load driver: iris
+1733966875.7135987 [joint_state_publisher_gui-3] libGL error: failed to open /dev/dri/card2: No such file or directory
+1733966875.7136519 [joint_state_publisher_gui-3] libGL error: failed to load driver: iris
+1733966875.7365396 [joint_state_publisher_gui-3] [INFO] [1733966875.736383226] [joint_state_publisher_gui]: Centering
+1733971676.5964611 [joint_state_publisher_gui-3] [INFO] [1733971676.594679501] [joint_state_publisher_gui]: Randomizing
+1733971680.0583880 [joint_state_publisher_gui-3] [INFO] [1733971680.057895506] [joint_state_publisher_gui]: Centering
+1733971685.2284865 [INFO] [rviz2-4]: process has finished cleanly [pid 365]
+1733971686.9227140 [INFO] [joint_state_publisher_gui-3]: process has finished cleanly [pid 363]

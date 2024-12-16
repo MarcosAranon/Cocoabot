@@ -1,0 +1,20 @@
+1734206660.7990944 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-17-04-20-798646-Lundi-191
+1734206660.7991796 [INFO] [launch]: Default logging verbosity is set to INFO
+1734206660.8712280 [INFO] [robot_state_publisher-1]: process started with pid [192]
+1734206660.8713434 [INFO] [joint_state_publisher-2]: process started with pid [194]
+1734206660.8714035 [INFO] [joint_state_publisher_gui-3]: process started with pid [196]
+1734206660.8714435 [INFO] [rviz2-4]: process started with pid [198]
+1734206660.9886642 [ERROR] [robot_state_publisher-1]: process has died [pid 192, exit code -6, cmd '/opt/ros/humble/lib/robot_state_publisher/robot_state_publisher --ros-args --params-file /tmp/launch_params__mnjro1x'].
+1734206661.0505083 [joint_state_publisher_gui-3] QStandardPaths: runtime directory '/tmp/runtime-ros2_ws' is not owned by UID 0, but a directory permissions 0755 owned by UID 1000 GID 1000
+1734206661.0718837 [joint_state_publisher-2] [INFO] [1734206661.071713904] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734206661.0763299 [joint_state_publisher_gui-3] [INFO] [1734206661.076224635] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734206661.0849192 [joint_state_publisher_gui-3] [INFO] [1734206661.084735314] [joint_state_publisher_gui]: Centering
+1734206661.1143770 [joint_state_publisher_gui-3] MESA: error: Failed to query drm device.
+1734206661.1144476 [joint_state_publisher_gui-3] libGL error: glx: failed to create dri3 screen
+1734206661.1144893 [joint_state_publisher_gui-3] libGL error: failed to load driver: iris
+1734206661.1159189 [joint_state_publisher_gui-3] libGL error: failed to open /dev/dri/card2: No such file or directory
+1734206661.1159732 [joint_state_publisher_gui-3] libGL error: failed to load driver: iris
+1734206670.1153870 [INFO] [rviz2-4]: process has finished cleanly [pid 198]
+1734206671.9901779 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734206672.0009601 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 196, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734206672.1412833 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 194]

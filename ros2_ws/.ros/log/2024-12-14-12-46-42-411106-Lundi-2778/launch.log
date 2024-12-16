@@ -1,0 +1,21 @@
+1734191202.4116273 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-12-46-42-411106-Lundi-2778
+1734191202.4117243 [INFO] [launch]: Default logging verbosity is set to INFO
+1734191202.4640410 [INFO] [robot_state_publisher-1]: process started with pid [2779]
+1734191202.4641671 [INFO] [joint_state_publisher-2]: process started with pid [2781]
+1734191202.4642141 [INFO] [joint_state_publisher_gui-3]: process started with pid [2783]
+1734191202.4642463 [INFO] [rviz2-4]: process started with pid [2785]
+1734191202.5801611 [joint_state_publisher-2] [INFO] [1734191202.579946385] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734191202.5811887 [joint_state_publisher_gui-3] QStandardPaths: runtime directory '/tmp/runtime-ros2_ws' is not owned by UID 0, but a directory permissions 0755 owned by UID 1000 GID 1000
+1734191202.6075826 [joint_state_publisher_gui-3] [INFO] [1734191202.607402474] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734191202.6138861 [joint_state_publisher_gui-3] [INFO] [1734191202.613703387] [joint_state_publisher_gui]: Centering
+1734191202.6439273 [joint_state_publisher_gui-3] MESA: error: Failed to query drm device.
+1734191202.6440704 [joint_state_publisher_gui-3] libGL error: glx: failed to create dri3 screen
+1734191202.6441154 [joint_state_publisher_gui-3] libGL error: failed to load driver: iris
+1734191202.6452565 [joint_state_publisher_gui-3] libGL error: failed to open /dev/dri/card1: No such file or directory
+1734191202.6452966 [joint_state_publisher_gui-3] libGL error: failed to load driver: iris
+1734191202.6682627 [joint_state_publisher_gui-3] [INFO] [1734191202.668104532] [joint_state_publisher_gui]: Centering
+1734191215.4604714 [INFO] [joint_state_publisher_gui-3]: process has finished cleanly [pid 2783]
+1734191219.7178657 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734191219.8347154 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 2779]
+1734191219.8611865 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 2781]
+1734191219.9081035 [INFO] [rviz2-4]: process has finished cleanly [pid 2785]

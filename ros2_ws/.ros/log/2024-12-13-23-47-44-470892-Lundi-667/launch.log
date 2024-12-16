@@ -1,0 +1,16 @@
+1734144464.4713454 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-13-23-47-44-470892-Lundi-667
+1734144464.4714386 [INFO] [launch]: Default logging verbosity is set to INFO
+1734144464.6919820 [INFO] [robot_state_publisher-1]: process started with pid [669]
+1734144464.6921008 [INFO] [ruby $(which ign) gazebo-2]: process started with pid [671]
+1734144464.6921513 [INFO] [create-3]: process started with pid [673]
+1734144464.6921864 [INFO] [parameter_bridge-4]: process started with pid [677]
+1734144464.7382112 [parameter_bridge-4] [INFO] [1734144464.738039762] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msg.Clock]) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+1734144464.7398810 [parameter_bridge-4] [WARN] [1734144464.739762272] [ros_gz_bridge]: Failed to create a bridge for topic [/clock] with ROS2 type [rosgraph_msgs/msg/Clock] to topic [/clock] with Gazebo Transport type [gz.msg.Clock]]
+1734144465.3665812 [INFO] [create-3]: process has finished cleanly [pid 673]
+1734144563.3978758 [INFO] [ruby $(which ign) gazebo-2]: process has finished cleanly [pid 671]
+1734144563.3981719 [INFO] [launch]: process[ruby $(which ign) gazebo-2] was required: shutting down launched system
+1734144563.3992856 [INFO] [parameter_bridge-4]: sending signal 'SIGINT' to process[parameter_bridge-4]
+1734144563.3999174 [INFO] [robot_state_publisher-1]: sending signal 'SIGINT' to process[robot_state_publisher-1]
+1734144563.4001453 [parameter_bridge-4] [INFO] [1734144563.399433388] [rclcpp]: signal_handler(signum=2)
+1734144563.5073175 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 669]
+1734144563.5089219 [INFO] [parameter_bridge-4]: process has finished cleanly [pid 677]

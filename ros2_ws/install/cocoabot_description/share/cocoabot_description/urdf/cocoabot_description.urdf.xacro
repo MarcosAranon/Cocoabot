@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<robot name="cocoabot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- Inclusão do arquivo material.xacro -->
+    <xacro:include filename="$(find cocoabot_description)/urdf/material.xacro"/>
+
+    <!-- Link: world -->
+    <link name="world">
+        <visual>
+            <geometry>
+                <box size="0.0 0.0 0.0"/>  
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <material name="green"/>
+        </visual>    
+    </link>
+
+    <!-- Joint 0: world para base_link -->
+    <joint name="joint_0" type="fixed">
+        <parent link="world"/>
+        <child link="base_link"/>
+        <origin xyz="0 0 0.23" rpy="0 0 0"/>        
+    </joint>
+
+    <link name="base_link">
+        <inertial>
+            <origin xyz="0.060747 -0.065229 -0.023328" rpy="0 0 0"/>
+            <mass value="2.1545"/>
+            <inertia ixx="0.0092706" ixy="1.4604E-05" ixz="-4.3192E-06" iyy="0.021653" iyz="1.839E-05" izz="0.030482"/>
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://cocoabot_description/meshes/base_link.STL"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="green"/>
+        </visual>
+    </link>
+
+    <!-- Joint 1: base_link para plat_link -->
+    <joint name="plat_joint" type="revolute">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child link="plat_link"/>
+        <axis xyz="0 0 -1"/>
+        <limit effort="8.826" velocity="1.047" lower="-3.142" upper="3.142"/>
+    </joint>
+
+    <link name="plat_link">
+        <inertial>
+            <origin xyz="0.0025853 0.00017376 0.11426" rpy="0 0 0"/>
+            <mass value="0.46474"/>
+            <inertia ixx="0.00081273" ixy="9.984E-08" ixz="-4.9772E-06" iyy="0.00070326" iyz="2.4908E-06" izz="0.00041364"/>
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://cocoabot_description/meshes/plat_link.STL"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="yellow"/>
+        </visual>
+    </link>
+
+    <!-- Joint 2: plat_link para rot_link -->
+    <joint name="rot_joint" type="revolute">
+        <origin xyz="0 0 0.3007" rpy="1.5708 0 1.5708"/>
+        <parent link="plat_link"/>
+        <child link="rot_link"/>
+        <axis xyz="0 0 -1"/>
+        <limit effort="8.826" velocity="0.1" lower="-1.092" upper="0.234"/>
+    </joint>
+
+    <link name="rot_link">
+        <inertial>
+            <origin xyz="0.073219 0.0064394 0.0036707" rpy="0 0 0"/>
+            <mass value="0.35324"/>
+            <inertia ixx="0.00028201" ixy="-6.3602E-06" ixz="-6.0104E-06" iyy="0.00053113" iyz="5.5646E-06" izz="0.00060695"/>
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://cocoabot_description/meshes/rot_link.STL"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="red"/>
+        </visual>
+    </link>
+
+    <!-- Joint 3: rot_link para prism_link -->
+    <joint name="prism_joint" type="prismatic">
+        <origin xyz="0.045 0 0" rpy="-1.5708 0 -1.5708"/>
+        <parent link="rot_link"/>
+        <child link="prism_link"/>
+        <axis xyz="0 0 -1"/>
+        <limit effort="1.766" velocity="0.01" lower="0.0144" upper="-0.080"/>
+    </joint>
+
+    <link name="prism_link">
+        <inertial>
+            <origin xyz="0.00042829 8.1635E-05 0.32046" rpy="0 0 0"/>
+            <mass value="0.41724"/>
+            <inertia ixx="0.0013879" ixy="6.4804E-07" ixz="4.5861E-05" iyy="0.0012367" iyz="-8.3826E-06" izz="0.00032076"/>
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://cocoabot_description/meshes/prism_link.STL"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="cyan"/>
+        </visual>
+    </link>
+
+    <!-- Joint 4: prism_link para lamina_link -->
+    <joint name="lamina_joint" type="revolute">
+        <origin xyz="0 -0.00020606 0.43266" rpy="0 0 0"/>
+        <parent link="prism_link"/>
+        <child link="lamina_link"/>
+        <axis xyz="-1 0 0"/>
+        <limit effort="8.826" velocity="2.514" lower="-1.087" upper="0"/>
+    </joint>
+
+    <link name="lamina_link">
+        <inertial>
+            <origin xyz="-0.0082117 -0.0073153 -0.020024" rpy="0 0 0"/>
+            <mass value="0.027825"/>
+            <inertia ixx="1.7938E-05" ixy="-5.7863E-08" ixz="-4.3107E-08" iyy="8.7838E-06" iyz="-3.1098E-06" izz="9.4353E-06"/>
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://cocoabot_description/meshes/lamina_link.STL"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="blue"/>
+        </visual>
+    </link>
+
+</robot>

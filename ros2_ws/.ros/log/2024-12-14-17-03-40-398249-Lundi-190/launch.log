@@ -1,0 +1,5 @@
+1734206620.3986483 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-17-03-40-398249-Lundi-190
+1734206620.3987315 [INFO] [launch]: Default logging verbosity is set to INFO
+1734206620.3995080 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - InvalidPythonLaunchFileError: launch file at '/home/ros2_ws/install/puma560_description/share/puma560_description/launch/puma560.launch.py' does not contain the required function 'generate_launch_description()'
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

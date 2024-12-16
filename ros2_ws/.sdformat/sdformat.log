@@ -1,0 +1,16 @@
+Dbg [parser.cc:954] Converting a deprecated source[/usr/share/ignition/ignition-gazebo6/worlds/empty.sdf].
+Dbg [Converter.cc:106] Version[1.6] to Version[1.9]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:914] No <sdf> element in file[<data-string>]
+Dbg [parser_urdf.cc:2938] creating visual for link [base_link] visual []
+Dbg [parser_urdf.cc:2938] creating visual for link [plat_link] visual []
+Dbg [parser_urdf.cc:2938] creating visual for link [rot_link] visual []
+Dbg [parser_urdf.cc:2938] creating visual for link [prism_link] visual []
+Warning [parser_urdf.cc:3130] urdf2sdf: revolute joint [prism_joint] with limits: lowStop[0.0144] > highStop[-0.08], switching the two.
+Dbg [parser_urdf.cc:2938] creating visual for link [lamina_link] visual []
+Dbg [parser.cc:954] Converting a deprecated source[<urdf-string>].
+Dbg [Converter.cc:106] Version[1.7] to Version[1.9]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:843] Parsing from urdf.

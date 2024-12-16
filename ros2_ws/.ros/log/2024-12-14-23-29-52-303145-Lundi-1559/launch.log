@@ -1,0 +1,9 @@
+1734229792.3036509 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-23-29-52-303145-Lundi-1559
+1734229792.3037410 [INFO] [launch]: Default logging verbosity is set to INFO
+1734229792.3815250 [INFO] [robot_state_publisher-1]: process started with pid [1561]
+1734229792.3816495 [INFO] [joint_state_publisher_gui-2]: process started with pid [1563]
+1734229792.3817160 [INFO] [rviz2-3]: process started with pid [1565]
+1734229800.9033878 [INFO] [joint_state_publisher_gui-2]: process has finished cleanly [pid 1563]
+1734229802.2388773 [INFO] [rviz2-3]: process has finished cleanly [pid 1565]
+1734229804.1718185 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734229804.2831879 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 1561]

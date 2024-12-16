@@ -1,0 +1,9 @@
+1734306296.9628925 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-15-20-44-56-962374-Lundi-255
+1734306296.9630094 [INFO] [launch]: Default logging verbosity is set to INFO
+1734306297.0469742 [INFO] [robot_state_publisher-1]: process started with pid [257]
+1734306297.0471246 [INFO] [joint_state_publisher_gui-2]: process started with pid [259]
+1734306297.0471764 [INFO] [rviz2-3]: process started with pid [261]
+1734306377.9002953 [INFO] [rviz2-3]: process has finished cleanly [pid 261]
+1734306379.5297465 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734306379.5415266 [ERROR] [joint_state_publisher_gui-2]: process has died [pid 259, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734306379.6408863 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 257]

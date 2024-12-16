@@ -1,0 +1,9 @@
+1734301760.4965174 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-15-19-29-20-496048-Lundi-258
+1734301760.4966187 [INFO] [launch]: Default logging verbosity is set to INFO
+1734301760.5682385 [INFO] [robot_state_publisher-1]: process started with pid [260]
+1734301760.5683582 [INFO] [joint_state_publisher_gui-2]: process started with pid [262]
+1734301760.5684242 [INFO] [rviz2-3]: process started with pid [264]
+1734302000.5034225 [ERROR] [rviz2-3]: process has died [pid 264, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/ros2_ws/install/cocoabot_description/share/cocoabot_description/rviz2/cocoabot_config.rviz --ros-args -r __node:=rviz2'].
+1734302003.8642466 [INFO] [joint_state_publisher_gui-2]: process has finished cleanly [pid 262]
+1734302005.6846101 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734302005.8088870 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 260]

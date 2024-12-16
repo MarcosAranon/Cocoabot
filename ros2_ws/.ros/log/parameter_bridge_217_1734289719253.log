@@ -1,0 +1,3 @@
+[INFO] [1734289719.260581487] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msg.Clock]) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[WARN] [1734289719.262171305] [ros_gz_bridge]: Failed to create a bridge for topic [/clock] with ROS2 type [rosgraph_msgs/msg/Clock] to topic [/clock] with Gazebo Transport type [gz.msg.Clock]]
+[INFO] [1734289740.557565563] [rclcpp]: signal_handler(signum=2)

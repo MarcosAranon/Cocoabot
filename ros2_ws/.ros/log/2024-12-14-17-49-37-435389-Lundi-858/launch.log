@@ -1,0 +1,5 @@
+1734209377.4358869 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-17-49-37-435389-Lundi-858
+1734209377.4359765 [INFO] [launch]: Default logging verbosity is set to INFO
+1734209377.4458094 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - FileNotFoundError: RViz config file not found: /home/ros2_ws/install/puma560_description/share/puma560_description/rviz2/Puma560_config.rviz
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown
